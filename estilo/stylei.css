@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +15,7 @@
     --cor3: #D95829;
     --cor4: #D95D41;
     --cor5: #A3372D;
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-padrao: 'Oswald', sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
 }
 
@@ -22,10 +26,11 @@ nav {
 }
 
 nav > a {
+    font-family: var(--fonte-padrao);
     color: wheat;
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     transition-duration: .8s;
     border-radius: 5px;
 }
@@ -34,4 +39,60 @@ nav > a:hover {
     color: white;
     background-color: var(--cor3);
     border-radius: 5px;
+}
+
+main {
+    height: 1500px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    font-size: 2.1em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+main img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main h2 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #fcba81, transparent);
+    text-indent: 8px;
+    font-weight: bold;
+}
+
+main p#paragrafo {
+    text-indent: 0px;
+}
+
+main p {
+    margin: 15px 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+ul {
+    list-style-type: '\2022\00A0\00A0';
+    list-style-position: inside;
+    padding: 10px;
+    line-height: 1.3em;
 }

@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +15,7 @@
     --cor3: #D95829;
     --cor4: #D95D41;
     --cor5: #A3372D;
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-padrao: 'Oswald', sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
 }
 
@@ -41,7 +43,7 @@ header > h1 {
 header > p {
     color: wheat;
     font-family: var(--fonte-padrao);
-    font-size: 1.1em;
+    font-size: 1.2em;
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
@@ -58,9 +60,10 @@ nav {
 
 nav > a {
     color: wheat;
+    font-family: var(--fonte-padrao);
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     transition-duration: .8s;
     border-radius: 5px;
 }
