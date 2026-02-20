@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     padding: 0;
@@ -16,8 +14,8 @@
     --cor4: #D95D41;
     --cor5: #A3372D;
     --cor6: #fcf5ea;
-    --fonte-padrao: 'Oswald', sans-serif;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-padrao: 'Playfair Display', sans-serif;
+    --fonte-destaque: 'Libre Baskerville', sans-serif;
 }
 
 body {
