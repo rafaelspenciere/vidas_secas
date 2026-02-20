@@ -15,8 +15,13 @@
     --cor3: #D95829;
     --cor4: #D95D41;
     --cor5: #A3372D;
+    --cor6: #fcf5ea;
     --fonte-padrao: 'Oswald', sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: lightgray;
 }
 
 nav {
@@ -42,11 +47,10 @@ nav > a:hover {
 }
 
 main {
-    height: 1500px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
+    background-color: var(--cor6);
     padding: 20px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
