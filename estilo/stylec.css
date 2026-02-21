@@ -54,3 +54,33 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     border-radius: 0px 0px 10px 10px;
 }
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    font-size: 2.1em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+main h2 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #fcba81, transparent);
+    text-indent: 8px;
+    font-weight: bold;
+}
+
+main p {
+    margin: 15px 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+main p#paragrafo {
+    text-indent: 0px;
+}
