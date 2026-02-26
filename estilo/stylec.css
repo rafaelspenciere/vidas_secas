@@ -55,6 +55,13 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
+main img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-padrao);
