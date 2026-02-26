@@ -155,3 +155,11 @@ main ul {
   object-fit: cover;
   border-radius: 10px;
 }
+
+.legenda {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  font-size: 0.63em;
+  margin-top: -30px;
+}
